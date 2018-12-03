@@ -11,6 +11,7 @@ int main()
 	ofstream out("output.txt");
 
 	int N;
+	// Чтение длины массива
 	inp >> N;
 	int *nums = new int[N];
 
