@@ -6,9 +6,7 @@ using namespace std;
 
 
 int main()
-{
-    cout << "Hello World 1404 ++!\n"; 
-
+{    
 	ifstream inp("input.txt");
 	ofstream out("output.txt");
 
@@ -22,19 +20,16 @@ int main()
 		nums[i] = n;
 	}
 
+	int count = 0;
 
-
-
-
-	for (int i = 0; i < N; i++) {
-		cout << nums[i] << endl;
+	for (int i = 1; i < N; i++) {
+		if (nums[i] > nums[i - 1]) count++;		
 	}
 
-
+	out << count;
 
 	inp.close();
 	out.close();
 
 	return 0;
 }
-
