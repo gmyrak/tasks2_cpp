@@ -11,7 +11,7 @@ int main()
 	ofstream out("output.txt");
 
 	int N;
-	// ×òåíèå äëèíû ìàññèâà
+	// Ğ§Ñ‚ĞµĞ½Ğ¸Ğµ Ğ´Ğ»Ğ¸Ğ½Ñ‹ Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ°
 	inp >> N;
 	int *nums = new int[N];
 
