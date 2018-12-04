@@ -1,3 +1,5 @@
+// 1505: K-й пробел
+
 #include "pch.h"
 #include <iostream>
 #include <fstream>
