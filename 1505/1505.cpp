@@ -24,8 +24,8 @@ int main()
 	getline(inp, line);
 	k = stoi(line);
 
-	int spos = 0;
-	int scnt = 0;
+	int spos = 0; // позиция k-го пробела
+	int scnt = 0; // количество пробелов
 
 	for (int i = 0; i < s.length(); i++) {
 		if (s[i] == ' ' ) {
